@@ -49,4 +49,3 @@ app.use('/chat', function(req, res){
 		io.sockets.emit('get users', users);
 	};
 });
-
